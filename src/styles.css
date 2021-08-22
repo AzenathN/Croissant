@@ -2,6 +2,7 @@ body {
   background: #f8e8a6;
   font-family: Georgia, "Times New Roman", Times, serif;
   border-width: 2em;
+  margin: 8px;
 }
 h1,
 p,
@@ -12,6 +13,8 @@ footer {
 h1 {
   font-size: 2em;
   font-weight: bold;
+  display: block;
+  margin-top: 1em;
 }
 
 p {
@@ -21,4 +24,11 @@ p {
 footer a {
   margin: 0 10px;
   color: green;
+}
+
+.croissant-photo {
+  margin: 30px auto;
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
 }
